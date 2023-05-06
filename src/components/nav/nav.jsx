@@ -11,11 +11,11 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#" className={activeNav === '#' ? 'active' : ''}><SiGooglehome/></a>
-      <a href="#about"><TfiUser/></a>
-      <a href="#experience"><BiBook/></a>
-      <a href="#portfolio"><RiFoldersLine/></a>
-      <a href="#contact"><TbMessage/></a>
+      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><SiGooglehome/></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><TfiUser/></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><RiFoldersLine/></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><TbMessage/></a>
     </nav>
   )
 }
