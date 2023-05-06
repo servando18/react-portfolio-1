@@ -5,11 +5,13 @@ import {TfiUser} from 'react-icons/tfi'
 import {BiBook} from 'react-icons/bi'
 import {RiFoldersLine} from 'react-icons/ri'
 import {TbMessage} from 'react-icons/tb'
+import {useState} from 'react'
 
-const nav = () => {
+const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#" className='active'><SiGooglehome/></a>
+      <a href="#" className={activeNav === '#' ? 'active' : ''}><SiGooglehome/></a>
       <a href="#about"><TfiUser/></a>
       <a href="#experience"><BiBook/></a>
       <a href="#portfolio"><RiFoldersLine/></a>
@@ -18,4 +20,4 @@ const nav = () => {
   )
 }
 
-export default nav
+export default Nav
