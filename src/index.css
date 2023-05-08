@@ -117,6 +117,7 @@ img {
 @media screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
+    background-color: #4db5ff;
   }
 
   section {
