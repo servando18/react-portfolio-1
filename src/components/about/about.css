@@ -1,0 +1,25 @@
+.about__container {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 10%;
+}
+
+.about__me2 {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        var(--color-primary),
+        transparent
+    );
+    display: grid;
+    place-items: center;
+}
+
+.about__me2-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+}
