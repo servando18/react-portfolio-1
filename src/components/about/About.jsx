@@ -2,7 +2,8 @@ import React from 'react'
 import './about.css'
 import me2 from '../../assets/me2.jpg'
 import {FaAward} from 'react-icons/fa'
-
+import {HiUsers} from 'react-icons/hi'
+import {MdOutlineFolderSpecial} from 'react-icons/md'
 
 const About = () => {
   return (
@@ -26,15 +27,15 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>1+ years Developing</small>
+              <HiUsers className='about__icon'/>
+              <h5>Clients</h5>
+              <small>2+ clients</small>
             </article>
 
             <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>1+ years Developing</small>
+              <MdOutlineFolderSpecial className='about__icon'/>
+              <h5>Projects</h5>
+              <small>10+ Completed</small>
             </article>
             
           </div>
