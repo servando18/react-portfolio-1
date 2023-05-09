@@ -36,9 +36,14 @@ const About = () => {
               <MdOutlineFolderSpecial className='about__icon'/>
               <h5>Projects</h5>
               <small>10+ Completed</small>
-            </article>
-            
+            </article>     
           </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, quasi officia est odit ab doloribus.
+          </p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>
       </div>
     </section>
