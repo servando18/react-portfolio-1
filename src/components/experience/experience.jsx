@@ -44,9 +44,32 @@ const experience = () => {
 
         </div>
       </div>
-          <div className="container__backend">
 
-          </div>
+      {/* END OF FRONTEND */}
+
+          <div className="container__backend">
+          <h3>Backend Development</h3>
+        <div className="experience__content">
+          <article className='experience__details'>
+            <IoIosCheckmarkCircle />
+            <h4>Node JS</h4>
+            <small className="text-light">Experienced</small>
+          </article>
+
+          <article className='experience__details'>
+            <IoIosCheckmarkCircle />
+            <h4>MongoDB</h4>
+            <small className="text-light">Experienced</small>
+          </article>
+
+          <article className='experience__details'>
+            <IoIosCheckmarkCircle />
+            <h4>MySQL</h4>
+            <small className="text-light">Basic</small>
+          </article>
+
+        </div>
+      </div>
       </div>
 
     </section>
