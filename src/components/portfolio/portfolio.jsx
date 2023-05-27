@@ -15,8 +15,10 @@ export const portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/servando18/react-portfolio-1" className='btn' target='_blank'>Github</a>
           <a href="https://dribbble.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -24,8 +26,10 @@ export const portfolio = () => {
             <img src={IMG2} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/servando18/react-portfolio-1" className='btn' target='_blank'>Github</a>
           <a href="https://dribbble.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -33,8 +37,10 @@ export const portfolio = () => {
             <img src={IMG2} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
+          <div className="portfolio__item-cta">
           <a href="https://github.com/servando18/react-portfolio-1" className='btn' target='_blank'>Github</a>
           <a href="https://dribbble.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
         </article>
 
       
