@@ -1,8 +1,22 @@
 import React from 'react'
 import './testimonials.css'
 import IMG4 from '../../assets/IMG4.png'
-import IMG5 from '../../assets/IMG4.png'
+import IMG5 from '../../assets/IMG5.png'
 
+
+const data = [
+{
+  avatar: IMG4,
+  name: 'regen',
+  review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum repellat soluta aspernatur deserunt id maiores laudantium. Totam fugit expedita quam'
+},
+
+{
+  avatar: IMG5,
+  name: 'next',
+  review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, culpa.'
+}
+]
 
 const testimonials = () => {
   return (
@@ -11,26 +25,19 @@ const testimonials = () => {
       <h2>Testimonials</h2>
 
       <div className="container testimonials__container">
-        <article className='testimonial'>
-         <div className="client__avatar">
-          <img src={IMG4} alt="IMGFOUR" />
-        </div>
-        <h5>Regen</h5>
-        <small className='client__review'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, omnis. Totam aspernatur ex a veniam qui fuga, mollitia corrupti architecto dolorum voluptatibus delectus, necessitatibus veritatis est alias consequuntur expedita repudiandae.
-        </small>
-       </article>
-
-       <article className='testimonial'>
-         <div className='client__avatar'>
-          <img src={IMG4} alt="IMGFOUR" />
-        </div>
-        <h5>Regen</h5>
-        <small className='client__review'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, omnis. Totam aspernatur ex a veniam qui fuga, mollitia corrupti architecto dolorum voluptatibus delectus, necessitatibus veritatis est alias consequuntur expedita repudiandae.
-        </small>
-       </article>
-
+        {
+         data.map(({avatar, name, review}, index) => {
+          return (
+            <article key={index} className="testimonial">
+              <div className="client__avatar">
+                <img src={avatar}/>
+              </div>
+              <h5 className='client__name'>{name}</h5>
+              <small className='client__review'>{review}</small>
+             </article>
+          )
+         }) 
+        }
      </div>
     </section>
   )
