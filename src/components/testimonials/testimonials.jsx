@@ -12,26 +12,26 @@ const testimonials = () => {
 
       <div className="container testimonials__container">
         <article className='testimonial'>
-      <div className="client__avatar">
+         <div className="client__avatar">
           <img src={IMG4} alt="IMGFOUR" />
-          <h5>Regen</h5>
-          <small className='client__review'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, omnis. Totam aspernatur ex a veniam qui fuga, mollitia corrupti architecto dolorum voluptatibus delectus, necessitatibus veritatis est alias consequuntur expedita repudiandae.
-          </small>
         </div>
+        <h5>Regen</h5>
+        <small className='client__review'>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, omnis. Totam aspernatur ex a veniam qui fuga, mollitia corrupti architecto dolorum voluptatibus delectus, necessitatibus veritatis est alias consequuntur expedita repudiandae.
+        </small>
        </article>
 
        <article className='testimonial'>
-      <div className="client__avatar">
+         <div className='client__avatar'>
           <img src={IMG4} alt="IMGFOUR" />
-          <h5>Regen</h5>
-          <small className='client__review'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, omnis. Totam aspernatur ex a veniam qui fuga, mollitia corrupti architecto dolorum voluptatibus delectus, necessitatibus veritatis est alias consequuntur expedita repudiandae.
-          </small>
         </div>
+        <h5>Regen</h5>
+        <small className='client__review'>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, omnis. Totam aspernatur ex a veniam qui fuga, mollitia corrupti architecto dolorum voluptatibus delectus, necessitatibus veritatis est alias consequuntur expedita repudiandae.
+        </small>
        </article>
-       
-      </div>
+
+     </div>
     </section>
   )
 }
