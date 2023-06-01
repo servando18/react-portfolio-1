@@ -34,7 +34,12 @@ const testimonials = () => {
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
 
-      <Swiper className="container testimonials__container">
+      <Swiper className="container testimonials__container"
+      // install Swiper modules
+      modules={[ Pagination ]}
+      spaceBetween={30}
+      slidesPerView={1}
+      pagination={{ clickable: true }}>
         {
          data.map(({avatar, name, review}, index) => {
           return (
