@@ -16,21 +16,21 @@ const Contact = () => {
           <AiOutlineMail/>
           <h4>Email</h4>
           <h5>servandoperez5556@gmail.com</h5>
-          <a href="mailto:servandoperez5556@gmail.com">Send A Message</a>
+          <a href="mailto:servandoperez5556@gmail.com" target={'_blank'}>Send A Message</a>
         </article>
 
         <article className="contact__options">
           <BsMessenger/>
           <h4>Messenger</h4>
           <h5>Servando Valenzuela</h5>
-          <a href="https://m.me/servando.valenzuela.7">Send A Message</a>
+          <a href="https://m.me/servando.valenzuela.7" target={'_blank'}>Send A Message</a>
         </article>
 
         <article className="contact__options">
           <AiFillTwitterCircle/>
           <h4>Twitter</h4>
           <h5>S_valenz_</h5>
-          <a href="https://twitter.com/S_valenz_">Send A Message</a>
+          <a href="https://twitter.com/S_valenz_" target={'_blank'}>Send A Message</a>
         </article>
 
         </div>
