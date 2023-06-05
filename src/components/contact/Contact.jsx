@@ -1,6 +1,9 @@
 import React from 'react'
 import './contact.css'
 import {AiOutlineMail} from "react-icons/ai"
+import {BsMessenger} from "react-icons/bs"
+import {AiFillTwitterCircle} from "react-icons/ai"
+
 const Contact = () => {
   return (
     <section id='contact'>
@@ -11,9 +14,25 @@ const Contact = () => {
         <div className="contact__options">
         <article className="contact__options">
           <AiOutlineMail/>
+          <h4>Email</h4>
           <h5>servandoperez5556@gmail.com</h5>
           <a href="mailto:servandoperez5556@gmail.com">Send A Message</a>
         </article>
+
+        <article className="contact__options">
+          <BsMessenger/>
+          <h4>Messenger</h4>
+          <h5>Servando Valenzuela</h5>
+          <a href="https://m.me/servando.valenzuela.7">Send A Message</a>
+        </article>
+
+        <article className="contact__options">
+          <AiFillTwitterCircle/>
+          <h4>Twitter</h4>
+          <h5>S_valenz_</h5>
+          <a href="https://twitter.com/S_valenz_">Send A Message</a>
+        </article>
+
         </div>
           {/* END OF Contact OPTIONS */}
         <form action=""></form>    
