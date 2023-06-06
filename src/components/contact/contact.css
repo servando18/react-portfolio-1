@@ -2,4 +2,21 @@
     width: 58%;
     display: grid;
     grid-template-columns: 35% 50%;
+    gap: 10%;
+}
+
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__opt {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+
 }
