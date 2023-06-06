@@ -13,21 +13,21 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
         <article className="contact__opt">
-          <AiOutlineMail/>
+          <AiOutlineMail className='contact__option-icon'/>
           <h4>Email</h4>
           <h5>servandoperez5556@gmail.com</h5>
           <a href="mailto:servandoperez5556@gmail.com" target={'_blank'}>Send A Message</a>
         </article>
 
         <article className="contact__opt">
-          <BsMessenger/>
+          <BsMessenger className='contact__option-icon'/>
           <h4>Messenger</h4>
           <h5>Servando Valenzuela</h5>
           <a href="https://m.me/servando.valenzuela.7" target={'_blank'}>Send A Message</a>
         </article>
 
         <article className="contact__opt">
-          <AiFillTwitterCircle/>
+          <AiFillTwitterCircle className='contact__option-icon'/>
           <h4>Twitter</h4>
           <h5>S_valenz_</h5>
           <a href="https://twitter.com/S_valenz_" target={'_blank'}>Send A Message</a>
