@@ -20,3 +20,13 @@
     transition: var(--transition);
 
 }
+
+.contact__opt:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+}
