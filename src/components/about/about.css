@@ -21,7 +21,7 @@
 .about__me2-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    transform: rotate(8deg);
     transition: var(--transition);
 }
 
@@ -32,14 +32,14 @@
 .about__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .about__card {
     background: var(--color-bg-variant);
     border: 2px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 3rem;
     text-align: center;
     transition: var(--transition);
 }
