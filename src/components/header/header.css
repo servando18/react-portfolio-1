@@ -58,14 +58,14 @@ header {
 /* =========== ME ==========*/
 
 .me {
-    background: linear-gradient(var(--color-bg-variant), transparent );
-    width: 23rem;
+    background: var(--color-bg-variant);
+    width: 28rem;
     height: 30rem;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 8rem;
-    border-radius: 15rem 15rem 1rem 1rem;
+    border-radius: 50% 50%;
     overflow: hidden;
 }
 
